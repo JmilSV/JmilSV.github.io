@@ -1,0 +1,29 @@
+body{
+	padding-top: 100px;
+	background-color: #fafaef;
+}
+.gap50px{
+	height: 50px;
+}
+.gap30px{
+	height: 30px;
+}
+.gap450px{
+	height: 450px;
+}
+p, li{
+	text-indent: 30px;
+	line-height: 2;
+}
+a.notCollapsed.collapsed:after{
+	content: "  \\/"
+}
+p.nonMarginPadding{
+	margin: 0px;
+}
+.gap74px{
+	height: 74px;
+}
+.resumeTextSize{
+	font-size: 120%;
+}
